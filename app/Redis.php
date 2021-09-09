@@ -6,6 +6,14 @@ use Predis\Client;
 use Predis\Response\ServerException;
 use Predis\Response\Status;
 
+/**
+ * Objeto para realizar a manipulação dos dados salvos no Redis
+ * 
+ * @author Rafael Figueiredo
+ * @author Mapp Sistemas
+ * @link https://github.com/RafaFig
+ * @link https://mappsistemas.com.br
+ */
 class Redis
 {
   /**
